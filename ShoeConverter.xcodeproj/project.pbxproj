@@ -13,6 +13,7 @@
 		84A7BBF01EBA29B300E7AED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BBEE1EBA29B300E7AED0 /* Main.storyboard */; };
 		84A7BBF21EBA29B300E7AED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BBF11EBA29B300E7AED0 /* Assets.xcassets */; };
 		84A7BBF51EBA29B300E7AED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BBF31EBA29B300E7AED0 /* LaunchScreen.storyboard */; };
+		84A7BBFD1EBA2A5200E7AED0 /* read.me in Resources */ = {isa = PBXBuildFile; fileRef = 84A7BBFC1EBA2A5200E7AED0 /* read.me */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		84A7BBF11EBA29B300E7AED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A7BBF41EBA29B300E7AED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A7BBF61EBA29B300E7AED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A7BBFC1EBA2A5200E7AED0 /* read.me */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read.me; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				84A7BBF31EBA29B300E7AED0 /* LaunchScreen.storyboard */,
 				84A7BBF61EBA29B300E7AED0 /* Info.plist */,
 				84A7BBE51EBA29B300E7AED0 /* Supporting Files */,
+				84A7BBFC1EBA2A5200E7AED0 /* read.me */,
 			);
 			path = ShoeConverter;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				84A7BBF51EBA29B300E7AED0 /* LaunchScreen.storyboard in Resources */,
 				84A7BBF21EBA29B300E7AED0 /* Assets.xcassets in Resources */,
 				84A7BBF01EBA29B300E7AED0 /* Main.storyboard in Resources */,
+				84A7BBFD1EBA2A5200E7AED0 /* read.me in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShoeConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOrganization.ShoeConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -285,10 +292,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ShoeConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyOrganization.ShoeConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
